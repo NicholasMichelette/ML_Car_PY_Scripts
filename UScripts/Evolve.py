@@ -4,7 +4,7 @@ import random
 from NeuralNet import *
 
 filepath = "J:/Documents/UScripts/UScripts/UScripts/data/"
-iter_char = 'g'
+iter_char = 'h'
 mutation_rate = 0.05
 crossover_rate = 0.225
 mutation_change = 1.0

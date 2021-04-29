@@ -27,4 +27,5 @@ class q_learn:
     epoch = None
     calls = None
     last_fitness = None
+    state_list = None
 

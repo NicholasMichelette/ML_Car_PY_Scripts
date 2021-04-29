@@ -5,8 +5,8 @@ import random
 datapath = "data/"
 
 def one_algo():
-    f = open(datapath + "galgo15avg.txt", "r")
-    f2 = open(datapath + "galgo15best.txt", "r")
+    f = open(datapath + "halgo15avg.txt", "r")
+    f2 = open(datapath + "halgo15best.txt", "r")
     l = f.read().split('\n')
     l.remove('')
     l2 = f2.read().split('\n')
@@ -70,7 +70,7 @@ def all_algo(numalgos):
 
 
 def qv_algo():
-    f = open(datapath + "qv1.txt", "r")
+    f = open(datapath + "qv3.txt", "r")
     l = f.read().split('\n')
     l.remove('')
     generations = []
@@ -87,5 +87,6 @@ def qv_algo():
     f.close()
     f2.close()
 #all_algo(12)
-qv_algo()
+#qv_algo()
+one_algo()
 
